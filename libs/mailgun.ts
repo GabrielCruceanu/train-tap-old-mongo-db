@@ -5,6 +5,7 @@ const mailgun = new Mailgun(formData);
 
 const mg = mailgun.client({
   username: "api",
+  url: "https://mg.eu.traintap.io/",
   key: process.env.MAILGUN_API_KEY || "dummy",
 });
 
@@ -51,6 +52,6 @@ export const sendEmail = async ({
   await mg.messages.create(
     (config.mailgun.subdomain ? `${config.mailgun.subdomain}.` : "") +
       config.domainName,
-    data
+    data,
   );
 };

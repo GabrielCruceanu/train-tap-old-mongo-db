@@ -12,14 +12,14 @@ import config from "@/config";
 // You are an excellent lawyer.
 
 // I need your help to write a simple Terms & Services for my website. Here is some context:
-// - Website: https://shipfa.st
+// - Website: https://traintap.io
 // - Name: ShipFast
-// - Contact information: marc@shipfa.st
+// - Contact information: marc@traintap.io
 // - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
 // - Ownership: when buying a package, users can download code to create apps. They own the code but they do not have the right to resell it. They can ask for a full refund within 7 day after the purchase.
 // - User data collected: name, email and payment information
 // - Non-personal data collection: web cookies
-// - Link to privacy-policy: https://shipfa.st/privacy-policy
+// - Link to privacy-policy: https://traintap.io/privacy-policy
 // - Governing Law: France
 // - Updates to the Terms: users will be updated by email
 
@@ -57,39 +57,55 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Effective Date: April 5, 2024
 
-Welcome to ShipFast!
+Welcome to TrainTap. The following terms and conditions (the "Terms of Service") govern your access to and use of TrainTap, including any content, functionality, and services offered on or through https://traintap.io (the "Website"), whether as a guest or a registered user.
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+Please read the Terms of Service carefully before you start to use the Website. By using the Website or by clicking to accept or agree to the Terms of Service when this option is made available to you, you accept and agree to be bound and abide by these Terms of Service and our Privacy Policy, found at https://traintap.io/privacy-policy, incorporated herein by reference. If you do not want to agree to these Terms of Service or the Privacy Policy, you must not access or use the Website.
 
-1. Description of ShipFast
+1. Service Description
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+TrainTap provides a platform for fitness trainers to manage schedules, client relationships, workout planning, and more. It is designed to enhance efficiency and training quality.
 
-2. Ownership and Usage Rights
+2. Use License
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+Subject to your compliance with these Terms of Service, TrainTap grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Website and services.
 
-3. User Data and Privacy
+3. Account Registration
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+To access certain features of the Website, you must register an account. You agree to provide accurate, current, and complete information and to update such information to keep it accurate, current, and complete.
 
-4. Non-Personal Data Collection
+4. User Conduct
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+You agree not to use the Website in a way that violates any laws, infringes on anyone's rights, is offensive, or interferes with the Website or any features on the Website.
 
-5. Governing Law
+5. Ownership and Intellectual Property
 
-These Terms are governed by the laws of France.
+The Website and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio) are owned by TrainTap, its licensors, or other providers of such material.
 
-6. Updates to the Terms
+6. User Data
 
-We may update these Terms from time to time. Users will be notified of any changes via email.
+We will maintain certain data that you transmit to the Website for the purpose of managing the performance of the Website, as well as data relating to your use of the Website. You are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Website.
 
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
+7. Purchases and Refunds
 
-Thank you for using ShipFast!`}
+Users who purchase a subscription plan may use the specific features associated with that plan. A full refund can be requested within 14 days after the purchase, subject to our refund policy.
+
+8. Modifications to the Terms of Service
+
+We may revise and update these Terms of Service from time to time at our sole discretion. All changes are effective immediately when we post them. Your continued use of the Website following the posting of revised Terms of Service means that you accept and agree to the changes.
+
+9. Governing Law
+
+These Terms of Service shall be governed by and construed in accordance with the laws of Romania, without giving effect to any choice or conflict of law provision or rule.
+
+10. Contact Information
+
+To ask questions or comment about these Terms of Service, contact us at contact@traintap.io.
+
+By using TrainTap, you represent and warrant that you have read and understood, and agree to be bound by these Terms of Service. If you do not agree with these Terms of Service, you are not authorized to use or access the Website.
+
+Thank you for using TrainTap!`}
         </pre>
       </div>
     </main>

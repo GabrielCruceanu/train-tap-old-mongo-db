@@ -12,16 +12,16 @@ import config from "@/config";
 // You are an excellent lawyer.
 
 // I need your help to write a simple privacy policy for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
+// - Website: https://traintap.io
+// - Name: TrainTap
+// - Description: TrainTap is a cutting-edge application designed to revolutionize the way fitness trainers manage their schedules, client relationships, and workout planning. With a focus on saving time and enhancing efficiency, TrainTap offers streamlined scheduling, effortless client management, customizable workout plans, and direct communication tools all in one platform. It empowers trainers to focus on what they do best—delivering impactful training sessions—while handling the administrative tasks that can often be time-consuming. Whether you're looking to grow your client base, simplify your business operations, or elevate the training experience, TrainTap is your go-to solution for taking your fitness training business to the next level. Join the community of trainers who are maximizing their potential with TrainTap.
 // - User data collected: name, email and payment information
 // - Non-personal data collection: web cookies
 // - Purpose of Data Collection: Order processing
 // - Data sharing: we do not share the data with any other parties
 // - Children's Privacy: we do not collect any data from children
 // - Updates to the Privacy Policy: users will be updated by email
-// - Contact information: marc@shipfa.st
+// - Contact information: contact@traintap.io
 
 // Please write a simple privacy policy for my site. Add the current date.  Do not add or explain your reasoning. Answer:
 
@@ -57,51 +57,57 @@ const PrivacyPolicy = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: 2023-08-25
+          {`
+Effective Date: April 5, 2024
 
-Thank you for visiting ShipFast ("we," "us," or "our"). This Privacy Policy outlines how we collect, use, and protect your personal and non-personal information when you use our website located at https://shipfa.st (the "Website").
-
-By accessing or using the Website, you agree to the terms of this Privacy Policy. If you do not agree with the practices described in this policy, please do not use the Website.
+This Privacy Policy applies to the TrainTap application and website (https://traintap.io), owned and operated by TrainTap ("we", "us", or "our"). It explains how we collect, use, disclose, and safeguard your information when you visit our website and use our application. We are committed to protecting your personal information and your right to privacy.
 
 1. Information We Collect
 
-1.1 Personal Data
+We collect information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or device (“personal information”). Specifically, we collect the following categories of personal information:
 
-We collect the following personal information from you:
-
-Name: We collect your name to personalize your experience and communicate with you effectively.
-Email: We collect your email address to send you important information regarding your orders, updates, and communication.
-Payment Information: We collect payment details to process your orders securely. However, we do not store your payment information on our servers. Payments are processed by trusted third-party payment processors.
-
-1.2 Non-Personal Data
-
-We may use web cookies and similar technologies to collect non-personal information such as your IP address, browser type, device information, and browsing patterns. This information helps us to enhance your browsing experience, analyze trends, and improve our services.
+- Personal Identification Information: Full Name, Email Address, Phone Number (Optional), Date of Birth, Gender, and Physical Address.
+- Fitness and Health Data: Health Information, Fitness Goals, Workout History, Dietary Preferences and Restrictions, Progress Photos, and Body Measurements.
+- Financial Information: Payment Details (processed and stored by third-party services) and Purchase History.
+- Technical Data: Device Information, IP Address, Cookies and Similar Technologies, and Usage Data.
+- Communication Data: Messages and Feedback.
+- Security Data: Login Information and Activity Logs.
 
 2. Purpose of Data Collection
 
-We collect and use your personal data for the sole purpose of order processing. This includes processing your orders, sending order confirmations, providing customer support, and keeping you updated about the status of your orders.
+Your data is collected for various purposes, including to:
+- Process orders and provide our services.
+- Improve and personalize your experience with TrainTap.
+- Communicate with you about your account and provide customer support.
+- For security, to protect our website and application.
 
 3. Data Sharing
 
-We do not share your personal data with any third parties except as required for order processing (e.g., sharing your information with payment processors). We do not sell, trade, or rent your personal information to others.
+We do not share your personal data with any third parties, except as required by law or to protect our rights and interests.
 
 4. Children's Privacy
 
-ShipFast is not intended for children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at the email address provided below.
+Our services do not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children under 13.
 
-5. Updates to the Privacy Policy
+5. Security of Your Information
 
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and we may notify you via email about significant changes.
+We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.
 
-6. Contact Information
+6. Updates to This Privacy Policy
 
-If you have any questions, concerns, or requests related to this Privacy Policy, you can contact us at:
+We may update this privacy policy from time to time. The updated version will be indicated by an updated “Effective Date” and the updated version will be effective as soon as it is accessible. You are advised to review this privacy policy periodically for any changes.
 
-Email: marc@shipfa.st
+7. Your Rights
 
-For all other inquiries, please visit our Contact Us page on the Website.
+You have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please contact us at contact@traintap.io.
 
-By using ShipFast, you consent to the terms of this Privacy Policy.`}
+8. Contact Information
+
+If you have questions or comments about this Privacy Policy, please contact us at:
+
+Email: contact@traintap.io
+
+This Privacy Policy has been designed to be compliant with major data protection regulations, including GDPR and CCPA. By using our services, you agree to the collection and use of information in accordance with this policy.`}
         </pre>
       </div>
     </main>

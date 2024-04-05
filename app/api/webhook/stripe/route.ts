@@ -50,11 +50,16 @@ export async function POST(req: NextRequest) {
         const priceId = session?.line_items?.data[0]?.price.id;
         const userId = stripeObject.client_reference_id;
         const plan = configFile.stripe.plans.find((p) => p.priceId === priceId);
+        console.log("session", session);
+        console.log("customerId", customerId);
+        console.log("priceId", priceId);
+        console.log("plan", plan);
+        console.log("stripeObject", stripeObject);
 
         if (!plan) break;
 
         const customer = (await stripe.customers.retrieve(
-          customerId as string
+          customerId as string,
         )) as Stripe.Customer;
 
         let user;
@@ -114,7 +119,7 @@ export async function POST(req: NextRequest) {
           .object as Stripe.Subscription;
 
         const subscription = await stripe.subscriptions.retrieve(
-          stripeObject.id
+          stripeObject.id,
         );
         const user = await User.findOne({ customerId: subscription.customer });
 
